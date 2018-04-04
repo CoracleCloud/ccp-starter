@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-auth/ccp-auth-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-auth/ccp-auth-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-control" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-control/ccp-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-control/ccp-trace" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-demo/ccp-demo-depart-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-gate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-gate/ccp-gate-ratelimit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-gate/ccp-gate-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-job/xxl-job-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-job/xxl-job-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-job/xxl-job-executor-samples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-job/xxl-job-executor-samples/xxl-job-executor-sample-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-modules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-modules/ccp-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-modules/ccp-dict" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-modules/ccp-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-modules/ccp-tool" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/transaction-springcloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/tx-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/tx-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/tx-plugins-db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-demo/ccp-transaction-demo1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-demo/ccp-transaction-demo2" charset="UTF-8" />
+  </component>
+</project>

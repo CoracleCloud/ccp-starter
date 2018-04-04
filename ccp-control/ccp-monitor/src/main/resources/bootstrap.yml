@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: ccp-monitor
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        service-id: ccp-config
+        enabled: true
+      profile: ${spring.profiles.active}
+      label: ${spring.profiles.active} 
+
+eureka:
+     instance:
+        preferIpAddress: true
+     client:
+        registerWithEureka: true
+        fetchRegistry: true
+        serviceUrl:
+          defaultZone: http://localhost:8761/eureka/

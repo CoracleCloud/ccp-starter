@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ccp-auth/ace-auth.iml" filepath="$PROJECT_DIR$/ccp-auth/ace-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-auth/ccp-auth-client/ace-auth-client.iml" filepath="$PROJECT_DIR$/ccp-auth/ccp-auth-client/ace-auth-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-auth/ccp-auth-server/ace-auth-server.iml" filepath="$PROJECT_DIR$/ccp-auth/ccp-auth-server/ace-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-register/ace-center.iml" filepath="$PROJECT_DIR$/ccp-register/ace-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-common/ace-common.iml" filepath="$PROJECT_DIR$/ccp-common/ace-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-control/ace-control.iml" filepath="$PROJECT_DIR$/ccp-control/ace-control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-demo/ace-demo.iml" filepath="$PROJECT_DIR$/ccp-demo/ace-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-demo/ccp-demo-depart-data/ace-demo-depart-data.iml" filepath="$PROJECT_DIR$/ccp-demo/ccp-demo-depart-data/ace-demo-depart-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-modules/ccp-dict/ace-dict.iml" filepath="$PROJECT_DIR$/ccp-modules/ccp-dict/ace-dict.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-gate/ace-gate.iml" filepath="$PROJECT_DIR$/ccp-gate/ace-gate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-gate/ccp-gate-ratelimit/ace-gate-ratelimit.iml" filepath="$PROJECT_DIR$/ccp-gate/ccp-gate-ratelimit/ace-gate-ratelimit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-gate/ccp-gate-server/ace-gate-server.iml" filepath="$PROJECT_DIR$/ccp-gate/ccp-gate-server/ace-gate-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-generator/ace-generator.iml" filepath="$PROJECT_DIR$/ccp-generator/ace-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-modules/ccp-interface/ace-interface.iml" filepath="$PROJECT_DIR$/ccp-modules/ccp-interface/ace-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-job/ace-job.iml" filepath="$PROJECT_DIR$/ccp-job/ace-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-modules/ace-modules.iml" filepath="$PROJECT_DIR$/ccp-modules/ace-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-control/ccp-monitor/ace-monitor.iml" filepath="$PROJECT_DIR$/ccp-control/ccp-monitor/ace-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-modules/ccp-tool/ace-tool.iml" filepath="$PROJECT_DIR$/ccp-modules/ccp-tool/ace-tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-control/ccp-trace/ace-trace.iml" filepath="$PROJECT_DIR$/ccp-control/ccp-trace/ace-trace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-transaction/ace-transaction.iml" filepath="$PROJECT_DIR$/ccp-transaction/ace-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-modules/ccp-admin/ccp-admin.iml" filepath="$PROJECT_DIR$/ccp-modules/ccp-admin/ccp-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-auth/ccp-auth.iml" filepath="$PROJECT_DIR$/ccp-auth/ccp-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-auth/ccp-auth-client/ccp-auth-client.iml" filepath="$PROJECT_DIR$/ccp-auth/ccp-auth-client/ccp-auth-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-auth/ccp-auth-server/ccp-auth-server.iml" filepath="$PROJECT_DIR$/ccp-auth/ccp-auth-server/ccp-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-common/ccp-common.iml" filepath="$PROJECT_DIR$/ccp-common/ccp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-config/ccp-config.iml" filepath="$PROJECT_DIR$/ccp-config/ccp-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-control/ccp-control.iml" filepath="$PROJECT_DIR$/ccp-control/ccp-control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-demo/ccp-demo.iml" filepath="$PROJECT_DIR$/ccp-demo/ccp-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-demo/ccp-demo-depart-data/ccp-demo-depart-data.iml" filepath="$PROJECT_DIR$/ccp-demo/ccp-demo-depart-data/ccp-demo-depart-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-modules/ccp-dict/ccp-dict.iml" filepath="$PROJECT_DIR$/ccp-modules/ccp-dict/ccp-dict.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-gate/ccp-gate.iml" filepath="$PROJECT_DIR$/ccp-gate/ccp-gate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-gate/ccp-gate-ratelimit/ccp-gate-ratelimit.iml" filepath="$PROJECT_DIR$/ccp-gate/ccp-gate-ratelimit/ccp-gate-ratelimit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-gate/ccp-gate-server/ccp-gate-server.iml" filepath="$PROJECT_DIR$/ccp-gate/ccp-gate-server/ccp-gate-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-generator/ccp-generator.iml" filepath="$PROJECT_DIR$/ccp-generator/ccp-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-modules/ccp-interface/ccp-interface.iml" filepath="$PROJECT_DIR$/ccp-modules/ccp-interface/ccp-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-job/ccp-job.iml" filepath="$PROJECT_DIR$/ccp-job/ccp-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-modules/ccp-modules.iml" filepath="$PROJECT_DIR$/ccp-modules/ccp-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-control/ccp-monitor/ccp-monitor.iml" filepath="$PROJECT_DIR$/ccp-control/ccp-monitor/ccp-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-register/ccp-register.iml" filepath="$PROJECT_DIR$/ccp-register/ccp-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-starter.iml" filepath="$PROJECT_DIR$/ccp-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-modules/ccp-tool/ccp-tool.iml" filepath="$PROJECT_DIR$/ccp-modules/ccp-tool/ccp-tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-control/ccp-trace/ccp-trace.iml" filepath="$PROJECT_DIR$/ccp-control/ccp-trace/ccp-trace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction.iml" filepath="$PROJECT_DIR$/ccp-transaction/ccp-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/ccp-transaction-core.iml" filepath="$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/ccp-transaction-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/transaction-springcloud/transaction-springcloud.iml" filepath="$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/transaction-springcloud/transaction-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/tx-client/tx-client.iml" filepath="$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/tx-client/tx-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/tx-manager/tx-manager.iml" filepath="$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/tx-manager/tx-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/tx-plugins-db/tx-plugins-db.iml" filepath="$PROJECT_DIR$/ccp-transaction/ccp-transaction-core/tx-plugins-db/tx-plugins-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-job/xxl-job-admin/xxl-job-admin.iml" filepath="$PROJECT_DIR$/ccp-job/xxl-job-admin/xxl-job-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-job/xxl-job-core/xxl-job-core.iml" filepath="$PROJECT_DIR$/ccp-job/xxl-job-core/xxl-job-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/xxl-job-executor-sample-spring.iml" filepath="$PROJECT_DIR$/ccp-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/xxl-job-executor-sample-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/xxl-job-executor-sample-springboot.iml" filepath="$PROJECT_DIR$/ccp-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/xxl-job-executor-sample-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccp-job/xxl-job-executor-samples/xxl-job-executor-samples.iml" filepath="$PROJECT_DIR$/ccp-job/xxl-job-executor-samples/xxl-job-executor-samples.iml" />
+    </modules>
+  </component>
+</project>

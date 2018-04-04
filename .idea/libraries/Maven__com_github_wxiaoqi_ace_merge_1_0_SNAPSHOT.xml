@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.wxiaoqi:ace-merge:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/wxiaoqi/ace-merge/1.0-SNAPSHOT/ace-merge-1.0-20180307.065236-5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/wxiaoqi/ace-merge/1.0-SNAPSHOT/ace-merge-1.0-20180307.065236-5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/wxiaoqi/ace-merge/1.0-SNAPSHOT/ace-merge-1.0-20180307.065236-5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

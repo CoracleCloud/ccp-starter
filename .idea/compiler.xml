@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/ccp-modules/ccp-admin1/src/main/java/com/github/wxiaoqi/security/admin/rest/GroupTypeController.java" />
+    </excludeFromCompile>
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ace-admin" />
+        <module name="ace-auth-client" />
+        <module name="ace-auth-server" />
+        <module name="ace-center" />
+        <module name="ace-common" />
+        <module name="ace-demo-depart-data" />
+        <module name="ace-dict" />
+        <module name="ace-gate-ratelimit" />
+        <module name="ace-gate-server" />
+        <module name="ace-generator" />
+        <module name="ace-interface" />
+        <module name="ace-monitor" />
+        <module name="ace-tool" />
+        <module name="ace-trace" />
+        <module name="ace-transaction-demo1" />
+        <module name="ace-transaction-demo2" />
+        <module name="ccp-admin" />
+        <module name="ccp-auth-client" />
+        <module name="ccp-auth-server" />
+        <module name="ccp-common" />
+        <module name="ccp-config" />
+        <module name="ccp-demo-depart-data" />
+        <module name="ccp-dict" />
+        <module name="ccp-gate-ratelimit" />
+        <module name="ccp-gate-server" />
+        <module name="ccp-generator" />
+        <module name="ccp-interface" />
+        <module name="ccp-monitor" />
+        <module name="ccp-register" />
+        <module name="ccp-tool" />
+        <module name="ccp-trace" />
+        <module name="transaction-springcloud" />
+        <module name="tx-client" />
+        <module name="tx-manager" />
+        <module name="tx-plugins-db" />
+        <module name="xxl-job-admin" />
+        <module name="xxl-job-core" />
+        <module name="xxl-job-executor-sample-spring" />
+        <module name="xxl-job-executor-sample-springboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ace-admin" target="1.8" />
+      <module name="ace-auth" target="1.8" />
+      <module name="ace-auth-client" target="1.8" />
+      <module name="ace-auth-server" target="1.8" />
+      <module name="ace-center" target="1.8" />
+      <module name="ace-common" target="1.8" />
+      <module name="ace-control" target="1.8" />
+      <module name="ace-demo" target="1.8" />
+      <module name="ace-demo-depart-data" target="1.8" />
+      <module name="ace-dict" target="1.8" />
+      <module name="ace-gate" target="1.8" />
+      <module name="ace-gate-ratelimit" target="1.8" />
+      <module name="ace-gate-server" target="1.8" />
+      <module name="ace-generator" target="1.7" />
+      <module name="ace-interface" target="1.8" />
+      <module name="ace-job" target="1.7" />
+      <module name="ace-modules" target="1.8" />
+      <module name="ace-monitor" target="1.8" />
+      <module name="ace-tool" target="1.8" />
+      <module name="ace-trace" target="1.8" />
+      <module name="ace-transaction" target="1.8" />
+      <module name="ace-transaction-core" target="1.7" />
+      <module name="ace-transaction-core (1)" target="1.7" />
+      <module name="ace-transaction-core (2)" target="1.7" />
+      <module name="ace-transaction-demo" target="1.8" />
+      <module name="ace-transaction-demo1" target="1.8" />
+      <module name="ace-transaction-demo2" target="1.8" />
+      <module name="ccp-admin" target="1.8" />
+      <module name="ccp-auth" target="1.8" />
+      <module name="ccp-auth-client" target="1.8" />
+      <module name="ccp-auth-server" target="1.8" />
+      <module name="ccp-common" target="1.8" />
+      <module name="ccp-config" target="1.8" />
+      <module name="ccp-control" target="1.8" />
+      <module name="ccp-demo" target="1.8" />
+      <module name="ccp-demo-depart-data" target="1.8" />
+      <module name="ccp-dict" target="1.8" />
+      <module name="ccp-gate" target="1.8" />
+      <module name="ccp-gate-ratelimit" target="1.8" />
+      <module name="ccp-gate-server" target="1.8" />
+      <module name="ccp-generator" target="1.7" />
+      <module name="ccp-interface" target="1.8" />
+      <module name="ccp-job" target="1.7" />
+      <module name="ccp-modules" target="1.8" />
+      <module name="ccp-monitor" target="1.8" />
+      <module name="ccp-register" target="1.8" />
+      <module name="ccp-starter" target="1.8" />
+      <module name="ccp-tool" target="1.8" />
+      <module name="ccp-trace" target="1.8" />
+      <module name="ccp-transaction" target="1.8" />
+      <module name="ccp-transaction-core" target="1.7" />
+      <module name="ccp-transaction-demo" target="1.8" />
+      <module name="ccp-transaction-demo1" target="1.8" />
+      <module name="ccp-transaction-demo2" target="1.8" />
+      <module name="transaction-springcloud" target="1.7" />
+      <module name="transaction-springcloud (1)" target="1.7" />
+      <module name="transaction-springcloud (2)" target="1.7" />
+      <module name="tx-client" target="1.7" />
+      <module name="tx-client (1)" target="1.7" />
+      <module name="tx-client (2)" target="1.7" />
+      <module name="tx-manager" target="1.7" />
+      <module name="tx-manager (1)" target="1.7" />
+      <module name="tx-manager (2)" target="1.7" />
+      <module name="tx-plugins-db" target="1.7" />
+      <module name="tx-plugins-db (1)" target="1.7" />
+      <module name="tx-plugins-db (2)" target="1.7" />
+      <module name="xxl-job-admin" target="1.7" />
+      <module name="xxl-job-core" target="1.7" />
+      <module name="xxl-job-executor-sample-spring" target="1.7" />
+      <module name="xxl-job-executor-sample-springboot" target="1.7" />
+      <module name="xxl-job-executor-samples" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

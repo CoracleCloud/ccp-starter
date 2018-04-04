@@ -1,0 +1,92 @@
+version: '2.1'
+services:
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+
+  mysql:
+    image: mysql:5.6.35
+    volumes:
+      - "/data/mysql1/db:/var/lib/mysql"
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+
+  rabbitmq:
+    image: rabbitmq:management
+    expose:
+      - 5672
+      - 15672
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  eureka:
+    image: ag/ccp-register
+    ports:
+      - "8761:8761"
+
+  ccp-auth:
+    image: ag/ccp-auth
+    ports:
+      - "9777:9777"
+    links:
+      - eureka
+    depends_on:
+      - eureka
+    environment:
+      - EUREKA_HOST=eureka
+      - EUREKA_PORT=8761
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - RABBIT_MQ_HOST=rabbitmq
+      - RABBIT_MQ_PORT=5672
+
+  ccp-admin:
+    image: ag/ccp-admin
+    ports:
+      - "9990:9990"
+    links:
+      - ccp-auth
+      - eureka
+    depends_on:
+      - eureka
+      - ccp-auth
+    entrypoint: ./wait-for-it.sh ccp-auth:9777 -t 600 --
+    command: java -Djava.security.egd=file:/dev/./urandom -jar /app.jar
+    environment:
+      - EUREKA_HOST=eureka
+      - EUREKA_PORT=8761
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - RABBIT_MQ_HOST=rabbitmq
+      - RABBIT_MQ_PORT=5672
+
+  ccp-gate:
+    image: ag/ccp-gate
+    ports:
+      - "8765:8765"
+    links:
+      - ccp-auth
+      - eureka
+    depends_on:
+      - eureka
+      - ccp-auth
+      - redis
+    entrypoint: ./wait-for-it.sh ccp-auth:9777 -t 600 --
+    command: java -Djava.security.egd=file:/dev/./urandom -jar /app.jar
+    environment:
+      - EUREKA_HOST=eureka
+      - EUREKA_PORT=8761
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - RABBIT_MQ_HOST=rabbitmq
+      - RABBIT_MQ_PORT=5672
